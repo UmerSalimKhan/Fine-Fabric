@@ -9,6 +9,24 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <style>
+
+    /* Body gradient background with wavy effect */
+   body {
+      background: linear-gradient(to right, #bfbdc1, #6d6a75, #37323e); /* Adjust gradient colors as needed */
+      animation: wavyBackground 5s linear infinite; /* Animation for wavy effect */
+      color: #fff;
+    }
+
+     /* Animation keyframes for wavy effect */
+     @keyframes wavyBackground {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
     /* Custom css Nav Bar */
     .logo {
         width: 75px;
@@ -23,6 +41,11 @@
     .navbar-custom .navbar-brand,
     .navbar-custom .navbar-nav .nav-link {
       color: #fff; /* Adjust text color as needed */
+    }
+
+     /* Custom CSS to increase font size */
+    .navbar-nav .nav-link {
+      font-size: 20px; /* Adjust font size as needed */
     }
 
     .navbar-custom .navbar-toggler-icon {
