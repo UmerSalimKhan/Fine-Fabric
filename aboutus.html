@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Fine Fabric</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+
+    /* Body gradient background with wavy effect */
+    body {
+      background: linear-gradient(to right, #52a366, #3f4596, #8d219b); /* Adjust gradient colors as needed */
+      animation: wavyBackground 5s linear infinite; /* Animation for wavy effect */
+      color: #fff;
+    }
+
+    /* Animation keyframes for wavy effect */
+    @keyframes wavyBackground {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+     /* Container for about page content */
+     .about-container {
+      max-width: 600px; /* Adjust container width as needed */
+      margin: 50px auto; /* Center the container */
+      padding: 20px;
+      background-color: #333333; /* Container background color */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5); /* Box shadow */
+      text-align: center; /* Center-align text */
+    }
+
+    /* Custom css Nav Bar */
+    .logo {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+
+    .navbar-custom {
+      background: linear-gradient(45deg, #887c7c, #333); /* Adjust gradient colors as needed */
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav .nav-link {
+      color: #fff; /* Adjust text color as needed */
+    }
+
+    .navbar-custom .navbar-toggler-icon {
+      background-color: #fff; /* Adjust hamburger icon color as needed */
+    }
+
+    .navbar-custom .navbar-toggler {
+      border-color: #fff; /* Adjust hamburger border color as needed */
+    }
+
+    .navbar-custom .navbar-nav .nav-link:hover {
+      color: #ccc; /* Adjust hover text color as needed */
+    }
+
+    .navbar-custom .navbar-toggler:focus,
+    .navbar-custom .navbar-toggler:hover {
+      background-color: transparent; /* Adjust hamburger hover/focus background color as needed */
+    }
+
+    .navbar-custom .navbar-toggler:focus .navbar-toggler-icon,
+    .navbar-custom .navbar-toggler:hover .navbar-toggler-icon {
+      background-color: #ccc; /* Adjust hamburger hover/focus icon color as needed */
+    }
+
+</style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <div class="container">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="Images\jackson-david-yXZ8PKZFrIE-unsplash.jpg" alt="Photo by Jackson David on Unsplash">
+          About
+        </a>
+  
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Brands
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="fairdeal_index.html">Fairdeal</a>
+                <a class="dropdown-item" href="index.html">Fine Fabric</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <!-- About Page Content -->
+    <div class="about-container-outer">
+        <div class="about-container">
+            <h2>Welcome to Our Clothing Website</h2>
+            <p>Fairdeal, a recently launched clothing brand, is dedicated to providing high-quality clothing at affordable prices. Our brand believes in offering premium fashion without compromising on quality or style. With a focus on delivering value to our customers, Fairdeal brings together a curated collection of high-end clothing from renowned brands, ensuring that everyone can enjoy luxury fashion without breaking the bank. From elegant traditional attire to contemporary casual wear, our range caters to diverse tastes and occasions. At Fairdeal, we prioritize product quality and customer satisfaction, striving to exceed expectations with every purchase. Experience the allure of designer fashion at unbeatable prices with Fairdeal – where style meets affordability.</p>
+        </div>
+    </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
